@@ -12,7 +12,7 @@ const app = express();
 // Use CORS middleware to allow requests from any origin
 app.use(cors({
   origin: '*',  // This allows all origins to access the API
-  methods: ['GET', 'POST', 'PUT', 'DELETE'],  // Allow common HTTP methods
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],  // Allow common HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'],  // Allow the necessary headers
 }));
 
